@@ -88,7 +88,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Unabhängig</h4>
                 <p class="text-base text-center font-serif text-gray-700" id="">
-                    my.awesomeBible gehört keiner großen Firma, und finanziert sich komplett von selbst.
+                    my.awesomeBible gehört keiner großen Firma und finanziert sich komplett von selbst.
                     Wir müssen uns nicht anpassen, wir können auf unsere <a href="https://matrix.to/#/#awesomebible:matrix.org" class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy">Community</a> hören.
                     Wir können unsere Vision ausleben.
                 </p>
@@ -100,9 +100,9 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-black" id="">Datenschutz ist uns wichtig.</h4>
-                <p class="text-base text-center text-gray-700 font-serif">Unsere Server stehen in Deutschland. 
-                    Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
+                <h4 class="text-xl font-medium text-black" id="">Kein Vendor Lock-in</h4>
+                <p class="text-base text-center text-gray-700 font-serif">Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
+                <p class="text-base text-center text-gray-700 font-serif">Deine Daten sind <b>deine Daten</b>, und dass ist auch gut so.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-500">
@@ -128,8 +128,8 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
-            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, das ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
-                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von der <a href="https://manitu.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">manitu GmbH</a> in <a href="https://www.openstreetmap.org/node/6538846006" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">St. Wedel</a>.
+            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland. Einerseits garantiert das schnelle Reaktionszeiten (Ping), andererseits garantiert es, dass deine Daten mit EU Datenschutzgesetzen geschützt sind.
+                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von <a href="https://stuxhost.com" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Stuxhost</a> in Falkenstein.
             </p>
         </div>
         <div
@@ -142,7 +142,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Ist my.awesomeBible unsicher weil der Quellcode offen liegt?</h3>
             <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Nein. Das ist ein Mythos - sogar das Gegenteil ist der Fall. Wäre der Quellcode nicht offen, dann wäre allein ich für die Sicherheit verantwortlich. 
-                Da er aber open-source ist, kann jeder Fehler finden und ausnutzen - aber genau so gut können sie gemeldet und gefixt werden.</p>
+                Da er aber quelloffen ist, kann jeder Fehler finden und ausnutzen - aber genau so gut können sie gemeldet und behoben werden.</p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
