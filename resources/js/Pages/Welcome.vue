@@ -57,7 +57,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black">Lies!</h4>
-                <p class="text-base text-center font-serif text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, Comic Sans - alles ist dir überlassen.</p>
+                <p class="text-base text-center font-serif text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, <span class="font-comic">Comic Sans</span> - alles ist dir überlassen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-red-200 to-orange-200">

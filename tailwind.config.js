@@ -13,7 +13,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
-                serif: ['Rubik', ...defaultTheme.fontFamily.serif]
+                serif: ['Rubik', ...defaultTheme.fontFamily.serif],
+                comic: ['Comic Sans MS', ...defaultTheme.fontFamily.serif],
             },
         },
     },
