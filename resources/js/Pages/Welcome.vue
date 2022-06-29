@@ -9,9 +9,9 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
     <div class="mx-auto max-w-7xl">
                     <nav class="relative z-50 h-24">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 dark:border-gray-700 lg:justify-center sm:px-4 md:px-2">
-                <router-link to="/" class="w-1/4 py-4 pr-4 md:py-0">
+                <Link as="a" href="/" class="w-1/4 py-4 pr-4 md:py-0">
                     <span class="text-xl font-black leading-none text-gray-900 dark:text-gray-100 select-none logo">my.awesomeBible<span class="text-indigo-600">.</span></span>
-                </router-link>
+                </Link>
                 <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:w-3/4 md:absolute lg:text-base md:h-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
                     <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                         <a href="/" class="inline-flex items-center w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 select-none md:hidden">my.awesomeBible<span class="text-indigo-600">.</span></a>
@@ -19,7 +19,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                             <a href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-indigo-600 dark:text-indigo-300 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
                             <a href="#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</a>
                             <a href="https://awesomebible.codeberg.page/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
-                            <router-link to="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Kontakt</router-link>
+                            <Link as="a" href="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Kontakt</Link>
                         </div>
                     </div>
                 </div>
@@ -227,14 +227,9 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
             <div>
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
-                    <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="E-Mail Adresse">
-                    </div>
-                    <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Passwort">
-                    </div>
                     <div class="block">
-                        <button disabled class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
+                        <Link as="button" href="/register" class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg mb-3">Anmelden</Link>
+                        <Link as="button" href="/login" class="w-full px-3 py-4 font-medium text-white bg-purple-600 rounded-lg mb-2">Ich habe schon einen Account</Link>
                     </div>
                 </div>
             </div>
@@ -251,9 +246,9 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                 </a>
             </div>
             <div class="px-5 py-2">
-                <router-link to="/kontakt" class="text-base leading-6 text-yellow-500 hover:text-yellow-600 underline decoration-yellow-500 decoration-2 hover:decoration-wavy">
+                <Link as="a" href="/kontakt" class="text-base leading-6 text-yellow-500 hover:text-yellow-600 underline decoration-yellow-500 decoration-2 hover:decoration-wavy">
                     Kontakt
-                </router-link>
+                </Link>
             </div>
             <div class="px-5 py-2">
                 <a href="https://codeberg.org/awesomebible/my" class="text-base leading-6 text-green-500 hover:text-green-600 underline decoration-green-500 decoration-2 hover:decoration-wavy">
