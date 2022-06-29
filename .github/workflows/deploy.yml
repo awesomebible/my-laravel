@@ -2,13 +2,7 @@ name: Deploy
 
 # Trigger the workflow on push and 
 # pull request events on the production branch
-on:
-  push:
-    branches:
-      - production
-  pull_request:
-    branches:
-      - production
+on: [workflow_dispatch, push]
       
 # Authenticate to the the server via ssh 
 # and run our deployment script 
