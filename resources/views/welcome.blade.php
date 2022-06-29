@@ -127,7 +127,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
             <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
-            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://awesomebible.codeberg.page/post/vision/">hier</a>. </p>
+            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://changelog.awesomebible.de/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">

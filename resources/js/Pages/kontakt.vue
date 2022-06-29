@@ -17,7 +17,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         <div class="flex flex-col items-start justify-center w-full text-center md:w-2/3 md:mt-0 md:flex-row md:items-center">
                             <Link as="a" href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Home</Link>
                             <Link as="a" href="/#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</Link>
-                            <a href="https://awesomebible.codeberg.page" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
+                            <a href="https://changelog.awesomebible.de" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
                             <Link as="a" href="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-indigo-600 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Kontakt</Link>
                         </div>
                     </div>
