@@ -13,6 +13,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
+                text: ['Rubik', ...defaultTheme.fontFamily.serif]
             },
         },
     },
