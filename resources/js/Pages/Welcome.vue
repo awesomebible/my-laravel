@@ -57,7 +57,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black">Lies!</h4>
-                <p class="text-base text-center text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, Comic Sans - alles ist dir überlassen.</p>
+                <p class="text-base text-center font-serif text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, Comic Sans - alles ist dir überlassen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-red-200 to-orange-200">
@@ -67,7 +67,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Merke!</h4>
-                <p class="text-base text-center text-gray-700" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
+                <p class="text-base text-center font-serif text-gray-700" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-green-200 to-blue-200">
@@ -77,7 +77,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Teile</h4>
-                <p class="text-base text-center text-gray-700" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
+                <p class="text-base text-center font-serif text-gray-700" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-pink-200 to-purple-200" id="">
@@ -87,7 +87,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                 </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Unabhängig</h4>
-                <p class="text-base text-center text-gray-700" id="">
+                <p class="text-base text-center font-serif text-gray-700" id="">
                     my.awesomeBible gehört keiner großen Firma, und finanziert sich komplett von selbst.
                     Wir müssen uns nicht anpassen, wir können auf unsere <a href="https://matrix.to/#/#awesomebible:matrix.org" class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy">Community</a> hören.
                     Wir können unsere Vision ausleben.
@@ -101,7 +101,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Datenschutz ist uns wichtig.</h4>
-                <p class="text-base text-center text-gray-700">Unsere Server stehen in Deutschland. 
+                <p class="text-base text-center text-gray-700 font-serif">Unsere Server stehen in Deutschland. 
                     Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
             </div>
 
@@ -112,7 +112,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Quelloffen</h4>
-                <p class="text-base text-center text-gray-700" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
+                <p class="text-base text-center text-gray-700 font-serif" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
                 <a class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
             </div>
         </div>
@@ -128,33 +128,33 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
-            <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, das ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
+            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, das ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
                 Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von der <a href="https://manitu.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">manitu GmbH</a> in <a href="https://www.openstreetmap.org/node/6538846006" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">St. Wedel</a>.
             </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
-            <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
+            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
             Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://awesomebible.codeberg.page/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Ist my.awesomeBible unsicher weil der Quellcode offen liegt?</h3>
-            <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Nein. Das ist ein Mythos - sogar das Gegenteil ist der Fall. Wäre der Quellcode nicht offen, dann wäre allein ich für die Sicherheit verantwortlich. 
+            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Nein. Das ist ein Mythos - sogar das Gegenteil ist der Fall. Wäre der Quellcode nicht offen, dann wäre allein ich für die Sicherheit verantwortlich. 
                 Da er aber open-source ist, kann jeder Fehler finden und ausnutzen - aber genau so gut können sie gemeldet und gefixt werden.</p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wer steht hinter my.awesomeBible und awesomeBible?</h3>
-            <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
+            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
                 Meine Hobbys sind <a href="https://awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Texte schreiben</a>, <a href="https://codeberg.org/awesomebible" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">programmieren</a> und in der Natur rumlungern. 
                 Ich habe my.awesomeBible gebaut, weil ich keine Bibelapp gefunden habe, die die Features hat, die ich brauche - und jetzt bin ich hier. Der Weg mit Gott ist ein richtiges Abenteuer - und ich möchte, dass auch andere davon erfahren.</p>
         </div>
         <div id="contact"
         class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
-        <p class="mt-2 text-base text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Schreib mir! Ich bin per E-Mail erreichbar: 
+        <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Schreib mir! Ich bin per E-Mail erreichbar: 
             <a href="mailto:hi@awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">benjamin@awesomebible.de</a> oder tritt unserem <a href="https://matrix.to/#/#awesomebible:matrix.org" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Matrix Space</a> bei und lass dein Feedback da.
             Ich freue mich auf deine Nachricht!
             </p>
@@ -207,7 +207,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <a tag="button" href="/login" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <a href="/register" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
                     Los geht's!
                 </a>
             </div>
@@ -242,4 +242,26 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
         </div>
     </div>
 </section>
+<footer class="bg-footer-texture">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+            <div class="px-5 py-2">
+                <a href="https://changelog.awesomebible.de/" class="text-base leading-6 text-violet-500 hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">
+                    Blog
+                </a>
+            </div>
+            <div class="px-5 py-2">
+                <router-link to="/kontakt" class="text-base leading-6 text-yellow-500 hover:text-yellow-600 underline decoration-yellow-500 decoration-2 hover:decoration-wavy">
+                    Kontakt
+                </router-link>
+            </div>
+            <div class="px-5 py-2">
+                <a href="https://codeberg.org/awesomebible/my" class="text-base leading-6 text-green-500 hover:text-green-600 underline decoration-green-500 decoration-2 hover:decoration-wavy">
+                    Codeberg
+                </a>
+            </div>
+        </nav>
+        <p class="mt-8 text-base leading-6 text-center text-blue-800">© 2022 awesomeBible</p>
+    </div>
+</footer>
 </template>
