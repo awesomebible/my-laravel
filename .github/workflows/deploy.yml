@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           password: ${{ secrets.PASSWORD }}
-          script: "cd /usr/share/nginx/my-laravel && ./.scripts/deploy.sh"
+          script: "cd /usr/share/nginx/my-laravel && ./.deploy-script/deploy.sh"
