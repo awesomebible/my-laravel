@@ -28,15 +28,7 @@ Was es damit auf sich hat, findest du hier: https://changelog.awesomebible.de/p/
 
 
 ## Projektstruktur 🍃
-### [Frontend](https://codeberg.org/awesomebible/my-frontend)
-Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Frontend ist in [Vue](https://v3.vuejs.org) geschrieben und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
-
-<video controls src="https://changelog.awesomebible.de/p/rewrite-rewrite-an-der-wand/overview.mp4" height="540px" width="960px"></video>
-
-### [Backend](https://codeberg.org/awesomebible/my-backend)
-Das Backend von my.awesomeBible - der Teil von dem alle Eingaben in der App verarbeitet und speichert.
-
-Das Backend ist in Javascript geschrieben und nutzt MongoDB als Datenbanksystem.
+Dieses Repository einhält ein Laravel-Projekt mit Frontend und Backend.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
@@ -56,31 +48,50 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
+Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my.awesomeBible/issues/new).
 
 ### Entwicklung 🛠
 #### Setup 🛠
-Schritt 1 ist, das Git-Repo zu klonen:
-```sh
-git clone https://codeberg.org/awesomebible/my-frontend.git
+Um das Laravelprojekt zu starten, brauchst du [Nodejs](https://nodejs.org), [PHP](https://php.net) und [Composer][https://getcomposer.org]. (=> Siehe [Laravel Quickstart Guide](https://laravel.com/docs/9.x/installation))
+
+Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen die benötigten Abhängigkeiten installieren:
+
+```
+$ npm install
+$ composer install
 ```
 
-Für die Entwicklung benutzen wir [Node.js LTS](https://nodejs.org/de/download/). 
+Anschließend musst du eine `.env`-Datei anlegen. Kopiere die `.env.example`-Datei und passe folgendes an:
 
-Wenn du [npm](https://nodejs.org/de/) benutzt:
-```sh
-npm install # Installiert Abhängigkeiten
-npm run dev # Startet den Dev-Server
-npm run build # Baut einen Build
-npm run serve # Startet den Build mit einem lokalen Server
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
 ```
-Wenn du [yarn](https://yarnpkg.com/) benutzt:
-```sh
-yarn # Installiert Abhängigkeiten
-yarn dev # Startet den Dev-Server
-yarn build # Baut einen Build
-yarn serve # Startet den Build mit einem lokalen Server
+wird zu:
 ```
+DB_CONNECTION=sqlite
+DB_DATABASE="path/to/database.sqlite"
+```
+Jetzt müssen wir die database.sqlite erstellen:
+
+```bash 
+$ touch database/database.sqlite
+```
+Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Skript ausführen:
+```bash
+$ php artisan migrate
+```
+
+Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:
+```
+$ php artisan key:generate
+```
+
+Schlussendlich lässt sich die App starten in dem man in einem Terminal-Fenster `npm run start` und in einem anderen `php artisan serve` ausführt.
 
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
