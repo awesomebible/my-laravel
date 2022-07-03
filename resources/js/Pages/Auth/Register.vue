@@ -22,7 +22,7 @@ const submit = () => {
 </script>
 
 <template>
-    <BreezeGuestLayout>
+    <BreezeGuestLayout class="dark:bg-slate-800">
         <Head title="Register" />
 
         <BreezeValidationErrors class="mb-4" />

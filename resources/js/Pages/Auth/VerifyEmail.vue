@@ -18,7 +18,7 @@ const verificationLinkSent = computed(() => props.status === 'verification-link-
 </script>
 
 <template>
-    <BreezeGuestLayout>
+    <BreezeGuestLayout class="dark:bg-slate-800">
         <Head title="Email Verification" />
 
         <div class="mb-4 text-sm text-gray-600">

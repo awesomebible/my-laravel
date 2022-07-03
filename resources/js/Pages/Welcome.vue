@@ -3,7 +3,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Home" />
 
     <header class="w-full px-6 mb-12 antialiased bg-white dark:bg-slate-800 select-none">
     <div class="mx-auto max-w-7xl">
