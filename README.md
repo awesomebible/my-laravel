@@ -52,46 +52,7 @@ Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei
 
 ### Entwicklung 🛠
 #### Setup 🛠
-Um das Laravelprojekt zu starten, brauchst du [Nodejs](https://nodejs.org), [PHP](https://php.net) und [Composer][https://getcomposer.org]. (=> Siehe [Laravel Quickstart Guide](https://laravel.com/docs/9.x/installation))
-
-Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen die benötigten Abhängigkeiten installieren:
-
-```
-$ npm install
-$ composer install
-```
-
-Anschließend musst du eine `.env`-Datei anlegen. Kopiere die `.env.example`-Datei und passe folgendes an:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
-wird zu:
-```
-DB_CONNECTION=sqlite
-DB_DATABASE="path/to/database.sqlite"
-```
-Jetzt müssen wir die database.sqlite erstellen:
-
-```bash 
-$ touch database/database.sqlite
-```
-Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Skript ausführen:
-```bash
-$ php artisan migrate
-```
-
-Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:
-```
-$ php artisan key:generate
-```
-
-Schlussendlich lässt sich die App starten in dem man in einem Terminal-Fenster `npm run start` und in einem anderen `php artisan serve` ausführt.
+Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch ins Wiki: [Wiki: Setup der Entwicklungsumgebung](https://codeberg.org/awesomeBible/my.awesomeBible/wiki/Setup-der-Entwicklungsumgebung)
 
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
