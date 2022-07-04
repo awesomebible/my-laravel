@@ -61,4 +61,4 @@ Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo e
 
 ### Sicherheitslücken 🔓
 
-Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
+Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) (gerne auch mit [OpenPGP](https://awesomebible.de/keys/hi@awesomebible.de-pub.asc)) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
