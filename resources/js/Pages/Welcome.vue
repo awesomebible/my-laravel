@@ -1,5 +1,6 @@
 <script setup>
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import Footer from '../Components/Footer.vue';
 </script>
 
 <template>
@@ -207,9 +208,9 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <a href="/register" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <Link as="a" href="/register" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
                     Los geht's!
-                </a>
+                </Link>
             </div>
         </div>
     </div>
@@ -237,26 +238,5 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
         </div>
     </div>
 </section>
-<footer class="bg-footer-texture">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-            <div class="px-5 py-2">
-                <a href="https://changelog.awesomebible.de/" class="text-base leading-6 text-violet-500 hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">
-                    Blog
-                </a>
-            </div>
-            <div class="px-5 py-2">
-                <Link as="a" href="/kontakt" class="text-base leading-6 text-yellow-500 hover:text-yellow-600 underline decoration-yellow-500 decoration-2 hover:decoration-wavy">
-                    Kontakt
-                </Link>
-            </div>
-            <div class="px-5 py-2">
-                <a href="https://codeberg.org/awesomebible/my" class="text-base leading-6 text-green-500 hover:text-green-600 underline decoration-green-500 decoration-2 hover:decoration-wavy">
-                    Codeberg
-                </a>
-            </div>
-        </nav>
-        <p class="mt-8 text-base leading-6 text-center text-blue-800">© 2022 awesomeBible</p>
-    </div>
-</footer>
+<Footer />
 </template>
