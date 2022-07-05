@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 
 Route::get('/kontakt', function () {
-    return Inertia::render('kontakt');
+    return Inertia::render('Kontakt');
 });
 
 Route::get('/dashboard', function () {

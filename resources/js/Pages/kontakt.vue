@@ -1,23 +1,24 @@
 <script setup>
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import Footer from '../Components/Footer.vue';
 </script>
 
 <template>
     <Head title="Kontakt" />
-    <section class="w-full px-6 mb-12 antialiased bg-white dark:bg-slate-800 select-none">
+    <section class="w-full px-6 mb-12 antialiased bg-white select-none">
     <div class="mx-auto max-w-7xl">
         <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
                 <Link as="a" href="/" class="w-1/4 py-4 pr-4 md:py-0">
-                    <span class="text-xl font-black leading-none text-gray-900 dark:text-gray-100 select-none logo">my.awesomeBible<span class="text-indigo-600">.</span></span>
+                    <span class="text-xl font-black leading-none text-gray-900 select-none logo">my.awesomeBible<span class="text-indigo-600">.</span></span>
                 </Link>
                 <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:w-3/4 md:absolute lg:text-base md:h-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
                     <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                         <Link as="a" href="/" class="inline-flex items-center w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 dark:text-gray-100 select-none md:hidden">my.awesomeBible<span class="text-indigo-600">.</span></Link>
                         <div class="flex flex-col items-start justify-center w-full text-center md:w-2/3 md:mt-0 md:flex-row md:items-center">
-                            <Link as="a" href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Home</Link>
-                            <Link as="a" href="/#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</Link>
-                            <a href="https://changelog.awesomebible.de" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 dark:text-gray-200 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
+                            <Link as="a" href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Home</Link>
+                            <Link as="a" href="/#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</Link>
+                            <a href="https://changelog.awesomebible.de" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
                             <Link as="a" href="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-indigo-600 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Kontakt</Link>
                         </div>
                     </div>
@@ -33,23 +34,19 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
             </div>
         </nav>
         <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center" id="">
-
-            <h1 class="text-5xl font-extrabold tracking-tight text-left text-gray-900 dark:text-gray-200 leading-tightest md:leading-10 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="inline md:block" id="">Hast du eine Frage?</span> <span class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500" id="">Stell sie. Wir haben Antworten, die wir dir gerne geben würden!</span></h1>
+            <h1 class="text-5xl font-extrabold tracking-tight text-left text-gray-900 leading-tightest md:leading-10 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="inline md:block" id="">Hast du eine Frage?</span> <span class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500" id="">Stell sie. Wir haben Antworten, die wir dir gerne geben würden!</span></h1>
             <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg" id=""></div>
         </div>
     </div>
 </section>
 <section class="w-full bg-white dark:bg-slate-800">
-
     <div class="mx-auto max-w-7xl">
-
         <div class="flex flex-col lg:flex-row">
-            <div class="relative w-full bg-cover lg:w-6/12 xl:w-7/12 bg-gradient-to-r from-white via-white to-gray-100 dark:from-slate-800 dark:via-slate-700 dark:to-slate-600">
-
+            <div class="relative w-full bg-cover lg:w-6/12 xl:w-7/12 dark:slate-800">
                 <div class="relative flex flex-col items-center justify-center w-full h-full px-10 my-20 lg:px-16 lg:my-0">
                     <div class="flex flex-col items-start space-y-8 tracking-tight lg:max-w-3xl">
                         <div class="relative">
-                            <h2 class="text-5xl font-bold text-gray-900 dark:text-gray-300 xl:text-6xl">Wir sind hier, um dir zu helfen.</h2>
+                            <h2 class="text-5xl font-bold text-gray-300 xl:text-6xl">Wir sind hier, um dir zu helfen.</h2>
                         </div>
                         <p class="text-2xl text-gray-700 dark:text-gray-300">Keine Frage ist zu dumm, kein Wunsch zu wenig. Auch wenn du nur mal eben Hallo sagen willst - wir sind für dich da!</p>
                     </div>
@@ -82,26 +79,5 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
         </div>
     </div>
 </section>
-<footer class="bg-footer-texture">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-            <div class="px-5 py-2">
-                <a href="https://changelog.awesomebible.de/" class="text-base leading-6 text-violet-500 hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">
-                    Blog
-                </a>
-            </div>
-            <div class="px-5 py-2">
-                <Link as="a" href="/kontakt" class="text-base leading-6 text-yellow-500 hover:text-yellow-600 underline decoration-yellow-500 decoration-2 hover:decoration-wavy">
-                    Kontakt
-                </Link>
-            </div>
-            <div class="px-5 py-2">
-                <a href="https://codeberg.org/awesomebible/my" class="text-base leading-6 text-green-500 hover:text-green-600 underline decoration-green-500 decoration-2 hover:decoration-wavy">
-                    Codeberg
-                </a>
-            </div>
-        </nav>
-        <p class="mt-8 text-base leading-6 text-center text-blue-800">© 2022 awesomeBible</p>
-    </div>
-</footer>
+<Footer />
 </template>
