@@ -37,7 +37,7 @@ const submit = () => {
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
                         <h2 class="text-2xl">Profil</h2>
-<BreezeValidationErrors class="mb-4" />
+    <BreezeValidationErrors class="mb-4" />
 
         <form @submit.prevent="submit">
             <div>
@@ -66,7 +66,7 @@ const submit = () => {
                 </BreezeButton>
             </div>
         </form>
-                        <h2 class="text-2xl">Einstellungen</h2>
+        <h2 class="text-2xl">Einstellungen</h2>
                     </div>
                 </div>
             </div>
