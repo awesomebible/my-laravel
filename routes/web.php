@@ -24,7 +24,7 @@ Route::get('/', function () {
 
 Route::get('/kontakt', function () {
     return Inertia::render('Kontakt');
-});
+})->name('kontakt');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
