@@ -93,7 +93,7 @@ const showingNavigationDropdown = ref(false);
 
                         <div class="mt-3 space-y-1">
                             <BreezeResponsiveNavLink :href="route('logout')" method="post" as="button">
-                                Log Out
+                                Abmelden
                             </BreezeResponsiveNavLink>
                         </div>
                     </div>
