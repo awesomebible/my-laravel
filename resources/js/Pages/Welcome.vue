@@ -24,14 +24,6 @@ import Footer from '../Components/Footer.vue';
                         </div>
                     </div>
                 </div>
-                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center justify-center w-10 h-10 rounded-full cursor-pointer md:hidden hover:bg-gray-100">
-                    <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                    <svg class="w-6 h-6 text-gray-700" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </div>
             </div>
         </nav>
         <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center" id="">
@@ -39,7 +31,7 @@ import Footer from '../Components/Footer.vue';
             <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg" id="">Wir haben my.awesomeBible gebaut, damit du die Bibel auf deinem Level erleben kannst.</div>
             <div class="flex flex-col items-center mt-12 text-center">
                 <span class="relative inline-flex w-full rounded-full shadow-sm md:w-auto">
-                    <a type="button" href="/#pricing" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700" id="">Worauf wartest du?</a>
+                    <a type="button" href="/#pricing" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-lg md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700" id="">Worauf wartest du?</a>
                 </span>
             </div>
         </div>

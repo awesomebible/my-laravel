@@ -27,8 +27,9 @@ const submit = () => {
 
 <template>
     <BreezeGuestLayout class="dark:bg-slate-800">
-        <Head title="Log in" />
+        <Head title="Anmelden" />
 
+        <h1 class="mb-4 text-2xl font-extrabold">Anmelden</h1>
         <BreezeValidationErrors class="mb-4" />
 
         <div v-if="status" class="mb-4 font-medium text-sm text-green-600">

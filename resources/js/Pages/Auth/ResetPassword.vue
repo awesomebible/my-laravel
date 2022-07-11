@@ -28,6 +28,7 @@ const submit = () => {
 <template>
     <BreezeGuestLayout class="dark:bg-slate-800">
         <Head title="Reset Password" />
+         <h1 class="mb-4 text-2xl font-extrabold">Passwort zurücksetzen</h1>
 
         <BreezeValidationErrors class="mb-4" />
 

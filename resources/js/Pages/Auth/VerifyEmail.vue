@@ -21,6 +21,8 @@ const verificationLinkSent = computed(() => props.status === 'verification-link-
     <BreezeGuestLayout class="dark:bg-slate-800">
         <Head title="Email Verification" />
 
+        <h1 class="mb-4 text-2xl font-extrabold">E-Mail bestätigen</h1>
+
         <div class="mb-4 text-sm text-gray-600">
             Danke, dass du dich angemeldet hast. Bevor du loslegen kannst, musst du deine E-Mail verifizieren, in dem du auf den Link klickst, den wir dir gerade gesendet haben. Du hast keine E-Mail erhalten? Wir schicken dir gerne eine Neue.
         </div>
@@ -35,7 +37,7 @@ const verificationLinkSent = computed(() => props.status === 'verification-link-
                     Verifizierungs-E-Mail erneut senden
                 </BreezeButton>
 
-                <Link :href="route('logout')" method="post" as="button" class="underline text-sm text-gray-600 hover:text-gray-900">Abmelden</Link>
+                <Link :href="route('logout')" method="post" as="button" class="underline text-sm text-rose-600 hover:text-rose-900">Abmelden</Link>
             </div>
         </form>
     </BreezeGuestLayout>

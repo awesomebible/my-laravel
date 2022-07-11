@@ -26,7 +26,7 @@ const submit = () => {
         <Head title="Register" />
 
         <BreezeValidationErrors class="mb-4" />
-
+        <h1 class="mb-4 text-2xl font-extrabold">Registrieren</h1>
         <form @submit.prevent="submit">
             <div>
                 <BreezeLabel for="name" value="Name" />
