@@ -21,7 +21,7 @@ const submit = () => {
 
 <template>
     <BreezeGuestLayout class="dark:bg-slate-800">
-        <Head title="Forgot Password" />
+        <Head title="Passwort vergessen" />
 
         <div class="mb-4 text-sm text-gray-600">
             Hast du dein Passwort vergessen? Kein Problem. Lass uns deine E-Mailadresse wissen, und wir senden dir einen Link zu, mit dem du ein neues Passwort festlegen kannst.

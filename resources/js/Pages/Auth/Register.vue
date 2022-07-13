@@ -23,7 +23,7 @@ const submit = () => {
 
 <template>
     <BreezeGuestLayout class="dark:bg-slate-800">
-        <Head title="Register" />
+        <Head title="Registrieren" />
 
         <BreezeValidationErrors class="mb-4" />
         <h1 class="mb-4 text-2xl font-extrabold">Registrieren</h1>
