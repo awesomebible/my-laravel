@@ -31,7 +31,7 @@ import Footer from '../Components/Footer.vue';
             <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg" id="">Wir haben my.awesomeBible gebaut, damit du die Bibel auf deinem Level erleben kannst.</div>
             <div class="flex flex-col items-center mt-12 text-center">
                 <span class="relative inline-flex w-full rounded-full shadow-sm md:w-auto">
-                    <a type="button" href="/#pricing" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-lg md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700" id="">Worauf wartest du?</a>
+                    <a type="button" href="/#pricing" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-lg md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 focus:ring-4 focus:ring-indigo-400">Worauf wartest du?</a>
                 </span>
             </div>
         </div>
@@ -200,7 +200,7 @@ import Footer from '../Components/Footer.vue';
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <Link as="a" href="/register" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <Link as="a" href="/register" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg focus:ring-4 focus:ring-blue-400">
                     Los geht's!
                 </Link>
             </div>
@@ -221,8 +221,8 @@ import Footer from '../Components/Footer.vue';
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
                     <div class="block">
-                        <Link as="button" href="/register" class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg mb-3">Anmelden</Link>
-                        <Link as="button" href="/login" class="w-full px-3 py-4 font-medium text-white bg-purple-600 rounded-lg mb-2">Ich habe schon einen Account</Link>
+                        <Link as="button" href="/register" class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg mb-3 focus:ring-4 focus:ring-blue-400">Anmelden</Link>
+                        <Link as="button" href="/login" class="w-full px-3 py-4 font-medium text-white bg-purple-600 rounded-lg mb-2 focus:ring-4 focus:ring-purple-400">Ich habe schon einen Account</Link>
                     </div>
                 </div>
             </div>
