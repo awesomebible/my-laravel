@@ -4,9 +4,11 @@
 # {{ $greeting }}
 @else
 @if ($level === 'error')
-# @lang('Ups!')
+# @lang('Da ist wohl etwas schief gelaufen.')<br>
+@lang('Antworte einfach auf diese E-Mail und wir helfen dir.')<br>
 @else
-# @lang('Hey! 😀 Nur noch ein Klick!')
+# @lang('Danke für deine Registrierung! ❤') <br>
+## @lang('Nur noch ein Klick, dann geht es los!')
 @endif
 @endif
 
