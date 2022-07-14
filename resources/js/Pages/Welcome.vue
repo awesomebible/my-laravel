@@ -95,7 +95,7 @@ import Footer from '../Components/Footer.vue';
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Kein Vendor Lock-in</h4>
                 <p class="text-base text-center text-gray-700 font-serif">Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
-                <p class="text-base text-center text-gray-700 font-serif">Deine Daten sind <b>deine Daten</b>, und dass ist auch gut so.</p>
+                <p class="text-base text-center text-gray-700 font-serif">Deine Daten sind <b class="font-sans">deine Daten</b>, und dass ist auch gut so.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-500">
@@ -122,14 +122,14 @@ import Footer from '../Components/Footer.vue';
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
             <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland. Einerseits garantiert das schnelle Reaktionszeiten (Ping), andererseits garantiert es, dass deine Daten mit EU Datenschutzgesetzen geschützt sind.
-                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von <a href="https://stuxhost.com" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Stuxhost</a> in Falkenstein.
+                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von <a href="https://stuxhost.com" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Stuxhost</a> in Falkenstein.
             </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
             <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
-            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://changelog.awesomebible.de/post/vision/">hier</a>. </p>
+            Mehr über Geld, und wie es weiter geht findest du <a class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://changelog.awesomebible.de/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
@@ -141,14 +141,14 @@ import Footer from '../Components/Footer.vue';
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wer steht hinter my.awesomeBible und awesomeBible?</h3>
             <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
-                Meine Hobbys sind <a href="https://awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Texte schreiben</a>, <a href="https://codeberg.org/awesomebible" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">programmieren</a> und in der Natur rumlungern. 
+                Meine Hobbys sind <a href="https://awesomebible.de" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Texte schreiben</a>, <a href="https://codeberg.org/benjaminwolkchen" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">programmieren</a> und in der Natur rumlungern. 
                 Ich habe my.awesomeBible gebaut, weil ich keine Bibelapp gefunden habe, die die Features hat, die ich brauche - und jetzt bin ich hier. Der Weg mit Gott ist ein richtiges Abenteuer - und ich möchte, dass auch andere davon erfahren.</p>
         </div>
         <div id="contact"
         class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-        <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
+        <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Du hast noch mehr Fragen?</h3>
         <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Schreib mir! Ich bin per E-Mail erreichbar: 
-            <a href="mailto:hi@awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">benjamin@awesomebible.de</a> oder tritt unserem <a href="https://matrix.to/#/#awesomebible:matrix.org" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Matrix Space</a> bei und lass dein Feedback da.
+            <a href="mailto:hi@awesomebible.de" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">benjamin@awesomebible.de</a> oder tritt unserem <a href="https://matrix.to/#/#awesomebible:matrix.org" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Matrix Space</a> bei und lass dein Feedback da.
             Ich freue mich auf deine Nachricht! ❤
             </p>
     </div>
