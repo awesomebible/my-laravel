@@ -4,7 +4,7 @@ import BreezeGuestLayout from '@/Layouts/Guest.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import BreezeValidationErrors from '@/Components/ValidationErrors.vue';
-import { Head, useForm } from '@inertiajs/inertia-vue3';
+import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 
 defineProps({
     status: String,
@@ -40,8 +40,12 @@ const submit = () => {
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <BreezeButton :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                    Sende mir den Link
+                <Link :href="route('login')" class="underline text-sm text-gray-600 hover:text-gray-900">
+                    Ich habe mich wieder erinnert!
+                </Link>
+
+                <BreezeButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                    Sende mir den Link!
                 </BreezeButton>
             </div>
         </form>
