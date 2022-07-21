@@ -52,7 +52,7 @@ Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei
 
 ### Entwicklung 🛠
 #### Setup 🛠
-Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch ins Wiki: [Wiki: Setup der Entwicklungsumgebung](https://codeberg.org/awesomeBible/my.awesomeBible/wiki/Setup-der-Entwicklungsumgebung)
+Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch in die Dokumentation: [Setup der Entwicklungsumgebung](https://docs.awesomebible.de/de/latest/my-devsetup.html)
 
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
