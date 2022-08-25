@@ -50,7 +50,7 @@ Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
 Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my.awesomeBible/issues/new).
 
-Wir haben auch eine Roadmap: https://awesomebible.cloud.mattermost.com/plugins/focalboard/team/y5jsnhqr3pd97e546xp6anrdxr/shared/b74jmbo814ibb7dkipknxmsccoc/v1ygqjzte8pbwtjmy3exgu6tu4c?r=kpc9ndk1mk81xqy3wnmhrf4ztfy
+Wir haben auch eine Roadmap: https://codeberg.org/awesomeBible/my.awesomeBible/projects/1648
 ### Entwicklung 🛠
 #### Setup 🛠
 Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch in die Dokumentation: [Setup der Entwicklungsumgebung](https://docs.awesomebible.de/de/latest/my/devsetup.html)
