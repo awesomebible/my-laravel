@@ -17,7 +17,7 @@ import { Link } from '@inertiajs/inertia-vue3';
             </div>
             <div class="px-5 py-2">
                 <a href="https://awesomebible.de/supporter" class="text-base leading-6 text-rose-500 hover:text-rose-600 underline decoration-rose-500 decoration-2 hover:decoration-wavy">
-                    Überstützer
+                    Unterstützer
                 </a>
             </div>
             <div class="px-5 py-2">
