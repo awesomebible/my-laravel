@@ -46,7 +46,7 @@
                 console.log(error);
                 });
     
-        axios.get("/modules/Menge-Bibel/at/Genesis/1.md")
+        axios.get("https://cdn.jsdelivr.net/gh/awesomebible/bibelmodule@main/meng/at/Genesis/1.md")
             .then(bookresponse => {
                     console.log(bookresponse)
                     this.content = marked.parse(bookresponse.data)
