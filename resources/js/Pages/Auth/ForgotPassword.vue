@@ -20,7 +20,7 @@ const submit = () => {
 </script>
 
 <template>
-    <BreezeGuestLayout class="dark:bg-slate-800">
+    <BreezeGuestLayout class="bg-gradient-to-b from-slate-50 to-indigo-900">
         <Head title="Passwort vergessen" />
 
         <div class="mb-4 text-sm text-gray-600">

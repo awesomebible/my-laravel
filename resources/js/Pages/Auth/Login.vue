@@ -26,7 +26,7 @@ const submit = () => {
 </script>
 
 <template>
-    <BreezeGuestLayout class="dark:bg-slate-800">
+    <BreezeGuestLayout class="bg-gradient-to-b from-slate-50 to-indigo-900">
         <Head title="Anmelden" />
 
         <h1 class="mb-4 text-2xl font-extrabold">Anmelden</h1>
