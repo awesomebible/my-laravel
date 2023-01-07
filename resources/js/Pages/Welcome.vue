@@ -50,7 +50,7 @@ import Footer from '../Components/Footer.vue';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black">Lies!</h4>
-                <p class="text-base text-center font-serif text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, <span class="font-comic">Comic Sans</span> - alles ist dir überlassen.</p>
+                <p class="text-base text-center font-sans text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, <span class="font-comic">Comic Sans</span> - alles ist dir überlassen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-red-200 to-orange-200">
@@ -60,7 +60,7 @@ import Footer from '../Components/Footer.vue';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Merke!</h4>
-                <p class="text-base text-center font-serif text-gray-700" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
+                <p class="text-base text-center font-sans text-gray-700" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-green-200 to-blue-200">
@@ -70,7 +70,7 @@ import Footer from '../Components/Footer.vue';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Teile</h4>
-                <p class="text-base text-center font-serif text-gray-700" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
+                <p class="text-base text-center font-sans text-gray-700" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-pink-200 to-purple-200" id="">
@@ -80,7 +80,7 @@ import Footer from '../Components/Footer.vue';
                 </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Unabhängig</h4>
-                <p class="text-base text-center font-serif text-gray-700" id="">
+                <p class="text-base text-center font-sans text-gray-700" id="">
                     my.awesomeBible gehört keiner großen Firma und finanziert sich komplett von selbst.
                     Wir müssen uns nicht anpassen, wir können auf unsere <a href="https://matrix.to/#/#awesomebible:matrix.org" class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy">Community</a> hören.
                     Wir können unsere Vision ausleben.
@@ -94,8 +94,8 @@ import Footer from '../Components/Footer.vue';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Kein Vendor Lock-in</h4>
-                <p class="text-base text-center text-gray-700 font-serif">Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
-                <p class="text-base text-center text-gray-700 font-serif">Deine Daten sind <b class="font-sans">deine Daten</b>, und dass ist auch gut so.</p>
+                <p class="text-base text-center text-gray-700 font-sans">Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
+                <p class="text-base text-center text-gray-700 font-sans">Deine Daten sind <b class="font-sans">deine Daten</b>, und dass ist auch gut so.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-500">
@@ -105,7 +105,7 @@ import Footer from '../Components/Footer.vue';
                     </svg>
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Quelloffen</h4>
-                <p class="text-base text-center text-gray-700 font-serif" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
+                <p class="text-base text-center text-gray-700 font-sans" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
                 <a class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
             </div>
         </div>
@@ -121,33 +121,33 @@ import Footer from '../Components/Footer.vue';
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
-            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland. Einerseits garantiert das schnelle Reaktionszeiten (Ping), andererseits garantiert es, dass deine Daten mit EU Datenschutzgesetzen geschützt sind.
+            <p class="mt-2 text-base font-sans text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland. Einerseits garantiert das schnelle Reaktionszeiten (Ping), andererseits garantiert es, dass deine Daten mit EU Datenschutzgesetzen geschützt sind.
                 Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von <a href="https://stuxhost.com" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Stuxhost</a> in Falkenstein.
             </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
-            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
+            <p class="mt-2 text-base font-sans text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
             Mehr über Geld, und wie es weiter geht findest du <a class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://changelog.awesomebible.de/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Ist my.awesomeBible unsicher weil der Quellcode offen liegt?</h3>
-            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Nein. Das ist ein Mythos - sogar das Gegenteil ist der Fall. Wäre der Quellcode nicht offen, dann wäre allein ich für die Sicherheit verantwortlich. 
+            <p class="mt-2 text-base font-sans text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Nein. Das ist ein Mythos - sogar das Gegenteil ist der Fall. Wäre der Quellcode nicht offen, dann wäre allein ich für die Sicherheit verantwortlich. 
                 Da er aber quelloffen ist, kann jeder Fehler finden und ausnutzen - aber genau so gut können sie gemeldet und behoben werden.</p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Wer steht hinter my.awesomeBible und awesomeBible?</h3>
-            <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
+            <p class="mt-2 text-base font-sans text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
                 Meine Hobbys sind <a href="https://awesomebible.de" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Texte schreiben</a>, <a href="https://codeberg.org/benjaminwolkchen" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">programmieren</a> und in der Natur rumlungern. 
                 Ich habe my.awesomeBible gebaut, weil ich keine Bibelapp gefunden habe, die die Features hat, die ich brauche - und jetzt bin ich hier. Der Weg mit Gott ist ein richtiges Abenteuer - und ich möchte, dass auch andere davon erfahren.</p>
         </div>
         <div id="contact"
         class="w-full px-6 py-6 mx-auto mt-10 bg-white dark:bg-blue-900 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 dark:text-purple-200 sm:text-xl md:text-2xl">Du hast noch mehr Fragen?</h3>
-        <p class="mt-2 text-base font-serif text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Schreib mir! Ich bin per E-Mail erreichbar: 
+        <p class="mt-2 text-base font-sans text-gray-600 dark:text-gray-200 sm:text-lg md:text-normal">Schreib mir! Ich bin per E-Mail erreichbar: 
             <a href="mailto:hi@awesomebible.de" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">benjamin@awesomebible.de</a> oder tritt unserem <a href="https://matrix.to/#/#awesomebible:matrix.org" class="font-sans hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Matrix Space</a> bei und lass dein Feedback da.
             Ich freue mich auf deine Nachricht! ❤
             </p>

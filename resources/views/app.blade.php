@@ -16,7 +16,7 @@
         <meta name="theme-color" content="#ffffff">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.bunny.net/css?family=inter:700,600|rubik:400&display=swap">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
 
         <!-- Scripts -->
         @routes
