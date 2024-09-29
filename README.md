@@ -1,9 +1,10 @@
-<p align="center"><img src="https://codeberg.org/awesomeBible/assets/raw/branch/main/exports/svg/wordmark_gradient.svg" width="400"></p>
+> [!WARNING]
+> Dieses Repository ist archiviert und wird nicht weiter entwickelt. Das neue Repository ist [awesomebible/my.awesomebible](https://github.com/awesomebible/my.awesomebible).
+> 
+> This repository is archived and no longer maintained. The new repository is [awesomebible/my.awesomebible](https://github.com/awesomebible/my.awesomebible).
 
-<p align="center">
-<a href="https://codeberg.org/awesomeBible/my.awesomeBible/src/branch/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-AGPLv3-blueviolet?cacheSeconds=31536000" alt="Lizenz: AGPL v3"></a>
-<a href="https://matrix.to/#/#my.awesomebible:matrix.org"><img src="https://img.shields.io/matrix/my.awesomebible:matrix.org?color=blueviolet&label=Chat&logo=matrix&cacheSeconds=3600" alt="Chat"></a>
-</p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/awesomeBible/assets/main/exports/svg/wordmark_gradient.svg" width="400"></p>
 
 # my.awesomeBible
 ## Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
